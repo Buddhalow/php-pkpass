@@ -1,9 +1,11 @@
 # PHP library to create passes for iOS wallet app
 This class provides the functionality to create passes for Wallet in Apple's iOS 6 and newer on-the-fly. It creates, signs and packages the pass as a `.pkpass` file according to Apple's documentation.
 
+This fork breaks free from the need for native php-zip support by using [php-zip by @Ne-lexa](https://github.com/Ne-Lexa/php-zip)
+
 ## Requirements
 * PHP 5.6 or higher
-* PHP [ZIP Support](http://php.net/manual/en/book.zip.php) (may be installed by default)
+* ~~PHP [ZIP Support](http://php.net/manual/en/book.zip.php) (may be installed by default)~~
 * Access to filesystem (script must be able to create temporary folders)
 
 
